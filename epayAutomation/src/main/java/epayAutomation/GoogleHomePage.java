@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class GoogleHomePage {
 	private WebDriver driver;
 	private WebDriverWait wait;
-	
+	//epay
 	public GoogleHomePage(WebDriver driver){
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
