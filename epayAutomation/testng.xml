@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DockerSelenium" verbose="1" parallel="tests"  > 
+<!-- suite name="Suite Name" --> 
+
+
+             <test name="GooglePageTest1" >
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="epayAutomation.GoogleHomeTest" />
+                     </classes>
+             </test>
+
+			<test name="GoogleSearchTest1" >
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="epayAutomation.GoogleResultTest" />
+                     </classes>
+             </test>			 
+</suite>
