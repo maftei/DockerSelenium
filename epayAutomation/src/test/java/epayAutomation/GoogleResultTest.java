@@ -19,7 +19,7 @@ public class GoogleResultTest extends BaseTest {
 		gp.LaunchUrl();
 		gp.isDisplayed();
 		gp.searchTest("Docker");
-		//gp.clickSuggestionByIndex(3);
+		gp.clickSuggestionByIndex(4);
 		resultpage.isDisplayed();
 		Assert.assertEquals("Pass", "Pass");
 		

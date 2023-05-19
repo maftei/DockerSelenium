@@ -16,7 +16,9 @@ public class GoogleHomePage {
 	
 	public GoogleHomePage(WebDriver driver){
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10000));
+	
+		this.wait = (WebDriverWait) new WebDriverWait(driver, 10);
+				
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -42,6 +44,16 @@ public class GoogleHomePage {
 		this.wait.until(ExpectedConditions.visibilityOf(searchBox));
 		return true;	
 	}
+
+	public void clickSuggestionByIndex(int i) {
+		
+		
+	}
+
+//	public void clickSuggestionByIndex(int i) {
+//		i=3;
+//		
+//	}
 	
 		
 }
