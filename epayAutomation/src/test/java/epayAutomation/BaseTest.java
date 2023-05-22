@@ -18,7 +18,7 @@ public class BaseTest {
 	protected WebDriver driver;
 	@BeforeTest
 	public void setUpDrive() throws MalformedURLException {
-		String host ="54.211.55.31"; //here provide the ip adress of the server
+		String host ="localhost"; //here provide the ip adress of the server
 		//System.setProperty("webdirver.chrome.driver", "C:\\Users\\razva\\Downloads\\chromedriver_win32.zip");
 		DesiredCapabilities dc=null;
 		dc=DesiredCapabilities.chrome();
