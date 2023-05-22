@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T22:01:17 EEST" name="DockerSelenium" finished-at="2023-05-19T22:01:19 EEST" duration-ms="2608">
+  <suite started-at="2023-05-22T16:11:37 EEST" name="DockerSelenium" finished-at="2023-05-22T16:11:40 EEST" duration-ms="2666">
     <groups>
     </groups>
-    <test started-at="2023-05-19T22:01:17 EEST" name="GooglePageTest1" finished-at="2023-05-19T22:01:18 EEST" duration-ms="1657">
+    <test started-at="2023-05-22T16:11:37 EEST" name="GooglePageTest1" finished-at="2023-05-22T16:11:39 EEST" duration-ms="1642">
       <class name="epayAutomation.GoogleHomeTest">
-        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-19T22:01:17 EEST" name="setUpDrive" finished-at="2023-05-19T22:01:18 EEST" duration-ms="802" status="PASS">
+        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-22T16:11:37 EEST" name="setUpDrive" finished-at="2023-05-22T16:11:38 EEST" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDrive -->
-        <test-method signature="searchTest()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-19T22:01:18 EEST" name="searchTest" finished-at="2023-05-19T22:01:18 EEST" duration-ms="697" status="PASS">
+        <test-method signature="searchTest()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-22T16:11:38 EEST" name="searchTest" finished-at="2023-05-22T16:11:39 EEST" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-19T22:01:18 EEST" name="quitDriver" finished-at="2023-05-19T22:01:18 EEST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleHomeTest@4fbe37eb]" started-at="2023-05-22T16:11:39 EEST" name="quitDriver" finished-at="2023-05-22T16:11:39 EEST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- epayAutomation.GoogleHomeTest -->
     </test> <!-- GooglePageTest1 -->
-    <test started-at="2023-05-19T22:01:17 EEST" name="GoogleSearchTest1" finished-at="2023-05-19T22:01:19 EEST" duration-ms="2186">
+    <test started-at="2023-05-22T16:11:37 EEST" name="GoogleSearchTest2" finished-at="2023-05-22T16:11:40 EEST" duration-ms="2138">
       <class name="epayAutomation.GoogleResultTest">
-        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-19T22:01:17 EEST" name="setUpDrive" finished-at="2023-05-19T22:01:19 EEST" duration-ms="2007" status="PASS">
+        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-22T16:11:37 EEST" name="setUpDrive" finished-at="2023-05-22T16:11:39 EEST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDrive -->
-        <test-method signature="searchPageTest()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-19T22:01:19 EEST" name="searchPageTest" data-provider="getData" finished-at="2023-05-19T22:01:19 EEST" duration-ms="3" status="FAIL">
+        <test-method signature="searchPageTest()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-22T16:11:39 EEST" name="searchPageTest" data-provider="getData" finished-at="2023-05-22T16:11:39 EEST" duration-ms="3" status="FAIL">
           <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
               <![CDATA[
@@ -65,61 +65,61 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPageTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-19T22:01:19 EEST" name="quitDriver" finished-at="2023-05-19T22:01:19 EEST" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- epayAutomation.GoogleResultTest -->
-    </test> <!-- GoogleSearchTest1 -->
-    <test started-at="2023-05-19T22:01:17 EEST" name="GoogleSearchTest2" finished-at="2023-05-19T22:01:19 EEST" duration-ms="2608">
-      <class name="epayAutomation.GoogleResultTest">
-        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-19T22:01:17 EEST" name="setUpDrive" finished-at="2023-05-19T22:01:19 EEST" duration-ms="2512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDrive -->
-        <test-method signature="searchPageTest()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-19T22:01:19 EEST" name="searchPageTest" data-provider="getData" finished-at="2023-05-19T22:01:19 EEST" duration-ms="1" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void epayAutomation.GoogleResultTest.searchPageTest()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: searchPageTest([])
-Arguments: [(java.lang.String) Docker,(java.lang.Integer) 3]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void epayAutomation.GoogleResultTest.searchPageTest()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: searchPageTest([])
-Arguments: [(java.lang.String) Docker,(java.lang.Integer) 3]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:918)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchPageTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-19T22:01:19 EEST" name="quitDriver" finished-at="2023-05-19T22:01:19 EEST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleResultTest@1fb19a0]" started-at="2023-05-22T16:11:39 EEST" name="quitDriver" finished-at="2023-05-22T16:11:40 EEST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- epayAutomation.GoogleResultTest -->
     </test> <!-- GoogleSearchTest2 -->
+    <test started-at="2023-05-22T16:11:37 EEST" name="GoogleSearchTest1" finished-at="2023-05-22T16:11:40 EEST" duration-ms="2666">
+      <class name="epayAutomation.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDrive()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-22T16:11:37 EEST" name="setUpDrive" finished-at="2023-05-22T16:11:40 EEST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDrive -->
+        <test-method signature="searchPageTest()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-22T16:11:40 EEST" name="searchPageTest" data-provider="getData" finished-at="2023-05-22T16:11:40 EEST" duration-ms="1" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void epayAutomation.GoogleResultTest.searchPageTest()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: searchPageTest([])
+Arguments: [(java.lang.String) Docker,(java.lang.Integer) 3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void epayAutomation.GoogleResultTest.searchPageTest()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: searchPageTest([])
+Arguments: [(java.lang.String) Docker,(java.lang.Integer) 3]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:918)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:epayAutomation.GoogleResultTest@50dfbc58]" started-at="2023-05-22T16:11:40 EEST" name="quitDriver" finished-at="2023-05-22T16:11:40 EEST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- epayAutomation.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest1 -->
   </suite> <!-- DockerSelenium -->
 </testng-results>
